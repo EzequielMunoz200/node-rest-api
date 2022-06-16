@@ -31,7 +31,6 @@ const server = http.createServer((req, res) => {
                 updateComputer(id, req, res)
                 break
             }
-            break
 
         case 'DELETE':
             if (url.match(`/api/computer/${regex}`)) {
